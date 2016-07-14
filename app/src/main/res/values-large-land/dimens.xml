@@ -7,4 +7,6 @@
     <dimen name="img_width">200dp</dimen>
     <dimen name="img_height">120dp</dimen>
 
+    <dimen name="btn_size">80dp</dimen>
+
 </resources>

@@ -21,7 +21,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/imageView"
         android:text="@string/brasil"
-        android:textSize="@dimen/textSize"/>
+        android:textSize="@dimen/textSize"
+        android:paddingLeft="@dimen/activity_horizontal_margin"/>
 
     <TextView
         android:id="@+id/txtSigla1"
@@ -29,7 +30,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/txtName1"
         android:text="@string/sigla_brasil"
-        android:textSize="@dimen/textSize"/>
+        android:textSize="@dimen/textSize"
+        android:paddingLeft="@dimen/activity_horizontal_margin"/>
 
     <ImageView
         android:layout_width="@dimen/img_width"
@@ -89,4 +91,32 @@
         android:textSize="@dimen/textSize"
         android:paddingRight="@dimen/activity_horizontal_margin"/>
 
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:gravity="center|bottom"
+        android:background="@color/colorAccent">
+
+        <ImageButton
+            android:id="@+id/btnAdd"
+            android:layout_width="@dimen/btn_size"
+            android:layout_height="@dimen/btn_size"
+            android:src="@drawable/ic_add_black_24dp"/>
+
+        <ImageButton
+            android:id="@+id/btnEdit"
+            android:layout_width="@dimen/btn_size"
+            android:layout_height="@dimen/btn_size"
+            android:src="@drawable/ic_mode_edit_black_24dp"/>
+
+        <ImageButton
+            android:id="@+id/btnDelete"
+            android:layout_width="@dimen/btn_size"
+            android:layout_height="@dimen/btn_size"
+            android:src="@drawable/ic_delete_black_24dp"/>
+
+    </LinearLayout>
 </RelativeLayout>
