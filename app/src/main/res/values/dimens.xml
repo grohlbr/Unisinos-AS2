@@ -5,7 +5,7 @@
 
     <dimen name="activity_horizontal_margin_custom">0.1dp</dimen>
 
-    <dimen name="textSize">20sp</dimen>
+    <dimen name="textSize">15sp</dimen>
     <dimen name="img_width">50dp</dimen>
     <dimen name="img_height">70dp</dimen>
 
