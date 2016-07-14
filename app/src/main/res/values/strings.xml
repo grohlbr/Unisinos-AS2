@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AS2</string>
+
+    <string name="brasil">País: Brasil</string>
+    <string name="espanha">País: Espanha</string>
+    <string name="usa">País: Estados Unidos da América</string>
+
+    <string name="sigla_brasil">Sigla: BR</string>
+    <string name="sigla_espanha">Sigla: ES</string>
+    <string name="sigla_usa">Sigla: US</string>
+</resources>

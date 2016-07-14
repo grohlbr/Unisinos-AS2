@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="br.unisinos.as2.MainActivity">
+
+    <ImageView
+        android:layout_width="@dimen/img_width"
+        android:layout_height="@dimen/img_height"
+        android:id="@+id/imageView"
+        android:src="@drawable/ic_flag_brazil"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/txtName1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:text="@string/brasil"
+        android:textSize="@dimen/textSize"/>
+
+    <TextView
+        android:id="@+id/txtSigla1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtName1"
+        android:text="@string/sigla_brasil"
+        android:textSize="@dimen/textSize"/>
+
+    <ImageView
+        android:layout_width="@dimen/img_width"
+        android:layout_height="@dimen/img_height"
+        android:id="@+id/imageView2"
+        android:src="@drawable/ic_flag_spain"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/txtName2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView2"
+        android:layout_centerHorizontal="true"
+        android:text="@string/espanha"
+        android:textSize="@dimen/textSize"/>
+
+    <TextView
+        android:id="@+id/txtSigla2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtName2"
+        android:layout_centerHorizontal="true"
+        android:text="@string/sigla_espanha"
+        android:textSize="@dimen/textSize"/>
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:src="@drawable/ic_flag_usa"
+        android:layout_width="@dimen/img_width"
+        android:layout_height="@dimen/img_height"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+
+    <TextView
+        android:id="@+id/txtName3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView3"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:text="@string/espanha"
+        android:textSize="@dimen/textSize"
+        android:paddingRight="@dimen/activity_horizontal_margin"/>
+
+    <TextView
+        android:id="@+id/txtSigla3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtName3"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:text="@string/sigla_espanha"
+        android:textSize="@dimen/textSize"
+        android:paddingRight="@dimen/activity_horizontal_margin"/>
+
+</RelativeLayout>
